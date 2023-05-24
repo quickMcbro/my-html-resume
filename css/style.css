@@ -217,3 +217,11 @@ p > .skill-progress {
 .duties h1 {
     color: #ee84c0;
 }
+
+/* -------------------------------------- FOOTER -------------------------------------- */
+
+footer {
+    color: #000;
+    background-color: #ee84c0;
+    padding: 15px;
+}
