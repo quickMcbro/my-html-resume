@@ -1,0 +1,205 @@
+@media all and (max-width: 1047px) {
+    /* .main-wrap {
+        padding: 82px 125px 74px;
+    } */
+    .person-item-1 {
+        margin: 0;
+    }
+    .person-item-2 {
+        margin: 0;
+    }
+    .personality h1.personality-h-2 {
+        text-align: center;
+    }
+}
+
+                /* -------------------------------------- 760 -------------------------------------- */
+
+@media all and (max-width: 760px) {
+    header .logo {order: 1;}
+    header .profession {order: 2}
+    header .fname {
+        order: 3;
+        flex: 1 0 auto;
+    }
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .abilities-wrap {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .abilities-wrap > div.ch-4 {flex: 1 1 140px;} .abilities-wrap > div.ch-6 {flex: 1 1 140px;}
+    .abilities-wrap > div {
+        flex: 1 1 140px;
+    }
+
+    .personality {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .personality .person-item-1, .personality .person-item-2, .personality .person-item-3 {
+        width: 300px;
+        text-align: center;
+    }
+    .personality ul {
+        padding: 0 0 10px;
+    }
+    .personality ul li {
+        padding: 0;
+    }
+    .personality .person-item-1 ul li::before {
+        left: 40px;
+    }
+    .personality .person-item-2 ul li::before {
+        left: 15px;
+    }
+    /*.personality .person-item-3 ul li::before {
+        left: 35px;
+    } */
+}
+
+                /* -------------------------------------- 700 -------------------------------------- */
+
+@media all and (max-width: 700px) {
+    .academics {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .academ-item-1 {
+        margin: 0 0 15px;
+    }
+    .academ-item-2 {
+        width: auto;
+    }
+}
+
+                /* -------------------------------------- 540 -------------------------------------- */
+
+@media all and (max-width: 540px) {
+    header .fname {
+        flex: 1 0 100%;
+        padding: 10px 0 0;
+    }
+    header .profession {
+        padding: 30px 0 0;
+    }
+    header .logo {
+        width: 500px;
+    }
+    .skills-wrap {flex-wrap: wrap;}
+    .skills-wrap > div {
+        flex: 1 0 120px;
+        padding: 0 0 15px;
+    }
+    .skills-wrap > div.skill-4, .skills-wrap > div.skill-5 {flex: 1 0 120px;}
+}
+
+@media all and (max-width: 370px) {
+    .academ-item-1 {
+        flex: 0 0 98%;
+    }
+    .academ-item-2 {
+        width: 98%;
+    }
+    .academ-item-2 > div p a {
+        word-break: break-all;
+    }
+}
+
+                /* -------------------------------------- 300 -------------------------------------- */
+
+@media all and (max-width: 300px) {
+    header {
+        padding: 0 0 30px; /*0 0 65*/
+    }
+    .main-wrap {
+        padding: 35px 15px 35px;
+    }
+    header .fname {
+        padding: 0;
+        font-size: 35px;
+        line-height: normal;
+    }
+    header .profession {
+        padding: 15px 0 0; 
+        font-size: 25px;/*28*/
+    }
+    header .logo {
+        width: 100%;
+    }
+    .logo img {
+        width: 70%;
+    }
+    #main h1 {
+        font-size: 25px;
+    }
+    .about-me p {
+        font-size: 18px;/*21*/
+    }
+    .abilities {
+        padding: 25px 0 25px
+    }
+    .personality {
+        padding: 25px 0;
+    }
+    .personality ul li span {
+        font-size: 18px;
+    }
+    .personality ul li, .duties ul li {
+        font-size: 18px;
+    }
+    .personality .person-item-1, .personality .person-item-2, .personality .person-item-3 {
+        width: 100%;
+    }
+    .personality .person-item-1 ul li::before {
+        left: 5px
+    }
+    .personality .person-item-2 ul li::before {
+        left: 0;
+    }
+    .academ-item-1 > div p, .academ-item-2 > div p {
+        font-size: 18px;
+    }
+    .duties {
+        padding: 25px 0 0;
+    }
+}
+@media all and (max-width: 280px) {
+    .personality .person-item-3 ul li::before {
+        left: -7px;
+    }
+}
+@media all and (max-width: 270px) {
+    .personality .person-item-2 ul li::before {
+        left: -10px;
+    }
+    .personality .person-item-3 ul li::before {
+        left: -10px;
+    }
+    .ch-1 img, .ch-2 img, .ch-3 img {
+        width: 35%;
+    }
+    .ch-4 img, .ch-5 img, .ch-6 img {
+        width: 28%;
+    }
+}
+@media all and (max-width: 245px) {
+    header .fname {
+        font-size: 30px;
+    }
+    header .profession {
+        padding: 15px 0 0;
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 220px) {
+    #main {
+        width: 204px;
+    }
+}
+

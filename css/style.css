@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    background-color: #2a2a2a;
+    font-family: Poppins;
+}
+.main-wrap {
+    max-width: 1047px;
+    margin: 0 auto;
+    padding: 82px 0 74px;
+}
+#main h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+/* -------------------------------------- HEADER -------------------------------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 0 65px;
+}
+header .fname {
+    /* font: 50px NasalizationFree; */
+    font-size: 50px;
+    color: #ee84c0;
+    flex: 0 0 238px;
+    line-height: 60px;
+    padding: 64px 0 0;
+}
+header .fname span {
+    color: #c0ee84;
+}
+header .profession {
+    font-size: 28px;
+    color: #b3b3b3;
+}
+header .logo {
+    font-size: 0;
+}
+
+/* -------------------------------------- ABOUT ME -------------------------------------- */
+
+.about-me h1 {
+    color: #c0ee84;
+    margin: 0 0 20px;
+}
+.about-me p {
+    font-size: 21px;
+    color: #fffdfe;
+}
+
+/* -------------------------------------- ABILITIES -------------------------------------- */
+
+.abilities {
+    padding: 50px 0 25px;
+}
+.abilities h1 {
+    color: #ee84c0;
+    margin: 0 0 20px;
+}
+.abilities-wrap, .skills-wrap {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+.abilities-wrap > div, .skills-wrap > div {
+    /* line-height: 1; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abilities-wrap > div.ch-4 {
+    flex: 0 1 130px;
+}
+.abilities-wrap > div.ch-6 {
+    flex: 0 1 92px;
+}
+.abilities-wrap > div.ch-1 p {
+    margin: 10px 0 0;
+}
+.abilities-wrap > div.ch-2 p, .abilities-wrap > div.ch-4 p, .abilities-wrap > div.ch-6 p {
+    margin: 12px 0 0;
+}
+.abilities-wrap > div.ch-3 p {
+    margin: 7px 0 0;
+}
+.abilities-wrap > div.ch-5 p {
+    margin: -5px 0 0;
+}
+.abilities-wrap > div.ch-5 img {
+    transform: translateY(-14px);
+}
+.abilities-wrap > div p, .skills-wrap > div p {
+    font-size: 16px;
+    color: #8c8c8c;
+    text-align: center;
+}
+
+/* -------------------------------------- SKILLS -------------------------------------- */
+
+.skills h1 {
+    color: #c0ee84;
+    margin: 0 0 20px;
+}
+.skills-wrap > div {
+    flex: 0 0 86px;
+}
+.skills-wrap > div > p {
+    margin: 10px 0 0;
+}
+.skills-wrap > div.skill-4, .skills-wrap > div.skill-5 {
+    flex: 0 0 83px;
+}
+p > .skill-progress {
+    display: block;
+    font-size: 13px;
+}
+
+/* -------------------------------------- PERSONALITY -------------------------------------- */
+
+.personality {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.personality h1, .academics h1, .duties h1 {
+    margin: 0 0 20px;
+}
+.person-item-1 {
+    /* margin: 0 230px 0 0; */
+    margin: 0 21.967526265520534861509073543457% 0 0;
+}
+.person-item-2 {
+    /* margin: 0 135px 0 0; */
+    margin: 0 12.893982808022922636103151862464% 0 0;
+}
+.person-item-3 {
+    width: 240px;
+}
+.personality-h-1 {
+    color: #ee84c0; 
+}
+.personality-h-2 {
+    color: #c0ee84;
+}
+.personality ul li, .duties ul li {
+    font-size: 21px;
+    list-style: none;
+    padding: 0 0 15px 23px;
+    position: relative;
+    color: #8c8c8c;
+}
+.personality ul.personality-list-1 li::before, .personality ul.personality-list li::before, .duties ul li::before {
+    content: "";
+    width: 10px; height: 10px;
+    position: absolute;
+    top: 10.5px;
+    left: 0;
+}
+.personality ul.personality-list-1 li::before {
+    background: url(../img/gelipse.png) no-repeat;
+}
+.personality ul.personality-list li::before, .duties ul li::before {
+    background: url(../img/relipse.png) no-repeat;
+}
+.personality ul li span {
+    font-size: 21px;
+    color: #fffdfe;
+}
+.personality ul.personality-list li a {
+    word-wrap: break-word;
+    font-size: 15px;
+    color: #fffdfe;
+}
+
+/* -------------------------------------- ACADEMICS -------------------------------------- */
+
+.academics {
+    display: flex;
+    justify-content: space-between;
+}
+.academ-h-1 {
+    color: #c0ee84;
+}
+.academ-h-2 {
+    color: #ee84c0;
+}
+.academ-item-1 {
+    flex: 0 0 348px;
+    margin: 0 50px 0 0;
+}
+.academ-item-2 {
+    width: 623px;
+}
+.academ-item-1 > div p, .academ-item-2 > div p {
+    font-size: 21px;
+    color: #8c8c8c;
+}
+.academ-item-1 > div p span, .academ-item-2 > div p span {
+    color: #fffdfe;
+}
+.academ-item-1 > div p a, .academ-item-2 > div p a {
+    font-size: 16px;
+    color: #fffdfe;
+}
+
+/* -------------------------------------- DUTIES -------------------------------------- */
+
+.duties {
+    padding: 50px 0 0;
+}
+.duties h1 {
+    color: #ee84c0;
+}
